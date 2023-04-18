@@ -46,12 +46,28 @@ Run the program:
 3.1. Open the FBLA.sln file in Visual Studio
 3.2. Ensure all NuGet packages are installed as mentioned in Step 2
 3.3. Press F5 or click on the green triangle to build and run the application
+
+4. Set up the SQL Server and Database:
+
+4.1. Connect to the SQL Server with your credentials
+4.2. Create a New Database called CollegeEvents in SQL Server Management Studio
+
+4.2.1. Right-click on Databases and select Restore Database
+4.2.2. Select Device for the source and click on the '...' button
+4.2.3. Select "Add" for the source and click on the "..." button and navigate to the path of the SQL backup
+  - Typically, the path would be "C:\Users\<YOUR_USERNAME>\Downloads\SchoolBoost (Working)\SqlBackup"
+  - Replace <YOUR_USERNAME> with your computer's username
+4.2.4. Click "Ok" and "Ok" again and follow the prompts to create the database
+
+4.3. If you would like to erase all the data from the tables, use the command "truncate (table name)" on every table
+4.4. To establish a connection between Dotnet and SQL, update the connection string ID within the Web.Config file with your own login credentials
 ## Usage
 
 - Use the program to track student participation and attendance at school events.
 - Track the amount of time students spend participating in each event.
-- Generate reports at the end of the quarter to show points per student in each grade and the amount of time they spent participating.
+- Generate reports at the end of the quarter to show points per student in each grade and the event participation count.
 - Use the leaderboard to track the top participants and the amount of time they spent participating.
+- Post pictures at events
 
 ## Credits
 
