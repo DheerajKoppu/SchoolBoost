@@ -62,7 +62,7 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
   - Right-click on Databases and select Restore Database
   - Select Device for the source and click on the '...' button
   - Select "Add" for the source and click on the "..." button and navigate to the path of the SQL backup
-  - Typically, the path would be "C:\Users\<YOUR_USERNAME>\Downloads\SchoolBoost (Working)\SqlBackup"
+  - Typically, the path would be "C:\Users\\<YOUR_USERNAME>\Downloads\SchoolBoost (Working)\SqlBackup"
   - Replace <YOUR_USERNAME> with your computer's username
   - Click "Ok" and "Ok" again and follow the prompts to create the database
 
@@ -80,4 +80,4 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
 
 ## Credits
 
-SchoolBoost was developed by Dheeraj Koppu for the 2023 FBLA Coding and Programming Event. Dheeraj is a sophomore at Cypress High School. The source code for the program is available on Github at [https://github.com/DheerajKoppu/school-boost.git](https://github.com/DheerajKoppu/school-boost.git). If you have any questions or suggestions, please contact him at [dheerajkoppu@gmail.com](mailto:dheerajkoppu@gmail.com).
+SchoolBoost was developed by Dheeraj Koppu for the 2023 FBLA Coding and Programming Event. Dheeraj is a sophomore at Cypress High School. The source code for the program is available on Github at [https://github.com/DheerajKoppu/school-boost.git](https://github.com/DheerajKoppu/school-boost.git). If you have any questions or suggestions, please contact him at [schoolboostfbla@gmail.com](mailto:schoolboostfbla@gmail.com).
