@@ -62,11 +62,11 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
   - Right-click on Databases and select Restore Database
   - Select Device for the source and click on the '...' button
   - Select "Add" for the source and click on the "..." button and navigate to the path of the SQL backup
-  - Typically, the path would be "C:\Users\\<YOUR_USERNAME>\Downloads\SchoolBoost (Working)\SqlBackup"
+  - Typically, the path would be "C:\Users\\<YOUR_USERNAME>\Downloads\SchoolBoost\SqlBackup"
   - Replace <YOUR_USERNAME> with your computer's username
   - Click "Ok" and "Ok" again and follow the prompts to create the database
 
-4.3. If you would like to erase all the data from the tables, use the command "truncate (table name)" on every table
+4.3. If you would like to erase all the data from the tables, use the command 'truncate <TABLE NAME>' on every table
 
 4.4. To establish a connection between Dotnet and SQL, update the connection string ID within the Web.Config file with your own login credentials
 
