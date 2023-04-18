@@ -12,7 +12,7 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
 
 ### 1. Access source code:
 
-  1.1. Clone or download code from GitHub repository
+  -Clone or download code from GitHub repository
     - Clone the code from GitHub onto your local Visual Studio
     - Download the ZIP file with all program files and unzip
 
