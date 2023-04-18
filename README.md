@@ -1,3 +1,13 @@
+## Table of Contents
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [1. Access source code](#1-access-source-code)
+  - [2. Install required packages and modules](#2-install-required-packages-and-modules)
+  - [3. Run the program](#3-run-the-program)
+  - [4. Set up the SQL Server and Database](#4-set-up-the-sql-server-and-database)
+- [Usage](#usage)
+- [Credits](#credits)
+
 # SchoolBoost
 
 SchoolBoost is a .NET-based program designed to improve student involvement in high school events. It tracks student participation and attendance, awards points, and offers prizes based on accumulated points. The program incentivizes students to engage in school events, promoting teamwork, leadership, and time management skills. By making it easier for schools to plan events and engage with their student body, SchoolBoost aims to enhance the overall school experience for students.
