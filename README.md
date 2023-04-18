@@ -10,57 +10,56 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
 
 ## Installation
 
-Access source code:
+### 1. Access source code:
 
-1.1. Clone or download code from GitHub repository
-1.1.1. Clone the code from GitHub onto your local Visual Studio
-1.1.2. Download the ZIP file with all program files and unzip
+  1.1. Clone or download code from GitHub repository
+    1.1.1. Clone the code from GitHub onto your local Visual Studio
+    1.1.2. Download the ZIP file with all program files and unzip
 
-1.2. Open the source code in your local IDE
-1.2.1. Navigate to FBLA.sln located in "C:\Users<YOUR_USERNAME>\Downloads\SchoolBoost\FBLA\FBLA\FBLA.sln"
+  1.2. Open the source code in your local IDE
+    1.2.1. Navigate to FBLA.sln located in "C:\Users<YOUR_USERNAME>\Downloads\SchoolBoost\FBLA\FBLA\FBLA.sln"
 
-Install required packages and modules:
+### 2. Install required packages and modules:
 
-2.1. Open a project in Visual Studio
-2.2. Right-click on the project name and click Manage NuGet Packages
-2.3. In the Browse Section, install the following if not already installed:
+  2.1. Open a project in Visual Studio
+  2.2. Right-click on the project name and click Manage NuGet Packages
+  2.3. In the Browse Section, install the following if not already installed:
 
-DocumentFormat.OpenXml
-System.ValueTuple
-System.Threading.Tasks.Extensions
-System.Runtime.CompilerServices.Unsafe
-System.Numerics.Vectors
-System.Memory
-System.Diagnostics.DiagnosticSource
-System.Buffers
-Microsoft.Extensions.Primitives
-Microsoft.Extensions.Options
-Microsoft.Extensions.Logging.Abstractions
-Microsoft.Extensions.Logging
-Microsoft.Extensions.DependencyInjection.Abstractions
-Microsoft.Extensions.DependencyInjection
-Microsoft.CodeDom.Providers.DotNetCompilerPlatform
-Microsoft.Bcl.AsyncInterfaces
-Run the program:
+- DocumentFormat.OpenXml
+- System.ValueTuple
+- System.Threading.Tasks.Extensions
+-System.Runtime.CompilerServices.Unsafe
+- System.Numerics.Vectors
+- System.Memory
+- System.Diagnostics.DiagnosticSource
+- System.Buffers
+- Microsoft.Extensions.Primitives
+- Microsoft.Extensions.Options
+- Microsoft.Extensions.Logging.Abstractions
+- Microsoft.Extensions.Logging
+- Microsoft.Extensions.DependencyInjection.Abstractions
+- Microsoft.Extensions.DependencyInjection
+- Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+- Microsoft.Bcl.AsyncInterfaces
 
-3.1. Open the FBLA.sln file in Visual Studio
-3.2. Ensure all NuGet packages are installed as mentioned in Step 2
-3.3. Press F5 or click on the green triangle to build and run the application
+### 3. Run the program:
 
-4. Set up the SQL Server and Database:
+  3.1. Open the FBLA.sln file in Visual Studio
+  3.2. Ensure all NuGet packages are installed as mentioned in Step 2
+  3.3. Press F5 or click on the green triangle to build and run the application
 
-4.1. Connect to the SQL Server with your credentials
-4.2. Create a New Database called CollegeEvents in SQL Server Management Studio
+### 4. Set up the SQL Server and Database:
 
-4.2.1. Right-click on Databases and select Restore Database
-4.2.2. Select Device for the source and click on the '...' button
-4.2.3. Select "Add" for the source and click on the "..." button and navigate to the path of the SQL backup
-  - Typically, the path would be "C:\Users\<YOUR_USERNAME>\Downloads\SchoolBoost (Working)\SqlBackup"
-  - Replace <YOUR_USERNAME> with your computer's username
-4.2.4. Click "Ok" and "Ok" again and follow the prompts to create the database
-
-4.3. If you would like to erase all the data from the tables, use the command "truncate (table name)" on every table
-4.4. To establish a connection between Dotnet and SQL, update the connection string ID within the Web.Config file with your own login credentials
+  4.1. Connect to the SQL Server with your credentials
+  4.2. Create a New Database called CollegeEvents in SQL Server Management Studio
+    4.2.1. Right-click on Databases and select Restore Database
+    4.2.2. Select Device for the source and click on the '...' button
+    4.2.3. Select "Add" for the source and click on the "..." button and navigate to the path of the SQL backup
+    4.2.4. Typically, the path would be "C:\Users\<YOUR_USERNAME>\Downloads\SchoolBoost (Working)\SqlBackup"
+    4.2.5. Replace <YOUR_USERNAME> with your computer's username
+    4.2.6. Click "Ok" and "Ok" again and follow the prompts to create the database
+  4.3. If you would like to erase all the data from the tables, use the command "truncate (table name)" on every table
+  4.4. To establish a connection between Dotnet and SQL, update the connection string ID within the Web.Config file with your own login credentials
 ## Usage
 
 - Use the program to track student participation and attendance at school events.
@@ -71,4 +70,4 @@ Run the program:
 
 ## Credits
 
-School Boost was developed by Dheeraj Koppu for the 2023 FBLA Coding and Programming Event. Dheeraj is a sophomore at Cypress High School. The source code for the program is available on Github at [https://github.com/DheerajKoppu/school-boost.git](https://github.com/DheerajKoppu/school-boost.git). If you have any questions or suggestions, please contact him at [dheerajkoppu@gmail.com](mailto:dheerajkoppu@gmail.com).
+SchoolBoost was developed by Dheeraj Koppu for the 2023 FBLA Coding and Programming Event. Dheeraj is a sophomore at Cypress High School. The source code for the program is available on Github at [https://github.com/DheerajKoppu/school-boost.git](https://github.com/DheerajKoppu/school-boost.git). If you have any questions or suggestions, please contact him at [dheerajkoppu@gmail.com](mailto:dheerajkoppu@gmail.com).
