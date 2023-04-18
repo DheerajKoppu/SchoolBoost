@@ -19,7 +19,7 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
 
 
 1.2. Open the source code in your local IDE
-  - Navigate to FBLA.sln located in "C:\Users\<YOUR_USERNAME>\Downloads\SchoolBoost\FBLA\FBLA\FBLA.sln"
+  - Navigate to FBLA.sln located in "C:\Users\\<YOUR_USERNAME>\Downloads\SchoolBoost\FBLA\FBLA\FBLA.sln"
 
 ### 2. Install required packages and modules:
 
