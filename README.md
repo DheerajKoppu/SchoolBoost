@@ -28,7 +28,7 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
 - DocumentFormat.OpenXml
 - System.ValueTuple
 - System.Threading.Tasks.Extensions
--System.Runtime.CompilerServices.Unsafe
+- System.Runtime.CompilerServices.Unsafe
 - System.Numerics.Vectors
 - System.Memory
 - System.Diagnostics.DiagnosticSource
