@@ -1,22 +1,51 @@
 # SchoolBoost
 
-School Boost is a web-based program designed to help improve student involvement at Cypress High School by tracking student participation and attendance at school events. Once students participate or attend events, they are awarded points. The program has a way to pick a random winner each quarter from each grade level, as well as the student with the top point accumulation. The number of points a person has accumulated will translate to the prize they will win. The program has three prizes (a school reward, a food reward, and a school spirit item). The program also includes a leaderboard to track the top participants and the amount of time they spent participating.
+SchoolBoost is a .NET-based program designed to improve student involvement in high school events. It tracks student participation and attendance, awards points, and offers prizes based on accumulated points. The program incentivizes students to engage in school events, promoting teamwork, leadership, and time management skills. By making it easier for schools to plan events and engage with their student body, SchoolBoost aims to enhance the overall school experience for students.
 
 ## Requirements
-- Operating system: Windows, Linux, or macOS
+- Operating system: Windows
 - Microsoft SQL Server Management Studio 19 installed
 - Microsoft Visual Studio 2022 installed
 - Web browser (Google Chrome, Mozilla Firefox, etc.)
 
 ## Installation
 
-To install and run the program, follow these steps:
+Access source code:
 
-1. Clone the repository from Github: git clone [(https://github.com/DheerajKoppu/school-boost.git)](https://github.com/DheerajKoppu/school-boost.git)
-2. Open Microsoft SQL Server Management Studio 19.
-3. In the "Connect to Server" dialog box, select the appropriate server type and provide the necessary connection information.
-4. Open Microsoft Visual Studio 2022 and open the project file "SchoolBoost.sln".
-5. Build and run the project using the built-in web server.
+1.1. Clone or download code from GitHub repository
+1.1.1. Clone the code from GitHub onto your local Visual Studio
+1.1.2. Download the ZIP file with all program files and unzip
+
+1.2. Open the source code in your local IDE
+1.2.1. Navigate to FBLA.sln located in "C:\Users<YOUR_USERNAME>\Downloads\SchoolBoost\FBLA\FBLA\FBLA.sln"
+
+Install required packages and modules:
+
+2.1. Open a project in Visual Studio
+2.2. Right-click on the project name and click Manage NuGet Packages
+2.3. In the Browse Section, install the following if not already installed:
+
+DocumentFormat.OpenXml
+System.ValueTuple
+System.Threading.Tasks.Extensions
+System.Runtime.CompilerServices.Unsafe
+System.Numerics.Vectors
+System.Memory
+System.Diagnostics.DiagnosticSource
+System.Buffers
+Microsoft.Extensions.Primitives
+Microsoft.Extensions.Options
+Microsoft.Extensions.Logging.Abstractions
+Microsoft.Extensions.Logging
+Microsoft.Extensions.DependencyInjection.Abstractions
+Microsoft.Extensions.DependencyInjection
+Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+Microsoft.Bcl.AsyncInterfaces
+Run the program:
+
+3.1. Open the FBLA.sln file in Visual Studio
+3.2. Ensure all NuGet packages are installed as mentioned in Step 2
+3.3. Press F5 or click on the green triangle to build and run the application
 ## Usage
 
 - Use the program to track student participation and attendance at school events.
