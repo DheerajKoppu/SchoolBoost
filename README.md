@@ -13,8 +13,8 @@ SchoolBoost is a .NET-based program designed to improve student involvement in h
 ### 1. Access source code:
 
   1.1. Clone or download code from GitHub repository
-    - 1.1.1. Clone the code from GitHub onto your local Visual Studio
-    1.1.2. Download the ZIP file with all program files and unzip
+    - Clone the code from GitHub onto your local Visual Studio
+    - Download the ZIP file with all program files and unzip
 
   1.2. Open the source code in your local IDE
     1.2.1. Navigate to FBLA.sln located in "C:\Users<YOUR_USERNAME>\Downloads\SchoolBoost\FBLA\FBLA\FBLA.sln"
